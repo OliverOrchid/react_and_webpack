@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello React!</title>
+  </head>
+
+  <body>
+    <div id="yourselfElementId"></div>
+
+        
+        <!-- Dependencies 
+        需要注意一点我们是从node_modules引入的文件。 React和React-DOM的npm包里包含了独立的.js文件，
+        你可以在页面上引入它们，这里我们为了快捷就直接引用了。 
+        
+        可以随意地将它们拷贝到其它目录下，或者从CDN上引用。
+        Facebook在CND上提供了一系列可用的React版本，你可以在这里查看更多内容。
+        -->
+        <script src="./node_modules/react/umd/react.development.js"></script>
+        <script src="./node_modules/react-dom/umd/react-dom.development.js"></script>
+
+
+        <!-- Main -->
+        <script src="./dist/main.js"> </script>
+
+  </body>
+
+
+</html>
+
+
+

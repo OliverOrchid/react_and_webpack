@@ -1,0 +1,35 @@
+// /////////////////////////////////////////////
+// // 添加TypeScript配置文件
+// // 我们想将TypeScript文件整合到一起 - 这包括我们写的源码和必要的声明文件。
+// // 我们需要创建一个tsconfig.json文件，它包含了输入文件列表以及编译选项。 在工程根目录下新建文件tsconfig.json文件，添加以下内容：
+// //jsx 全称 Javascript Extenion  即 "扩展型JS", jsx包含多种语言(e.g. React)
+
+// /////////////////////////////////////////////
+// //你可以在这里了解更多关于tsconfig.json文件的说明。
+// //https://github.com/zhongsp/TypeScript/blob/master/tsconfig.json/tsconfig.json.md
+
+
+// {
+//     "compilerOptions":{
+
+//         "outDir":"./dist/",  //代码规范:  4行每每分割 
+//         "sourceMap":true,
+//         "noImplicitAny":true,
+//         "module":"commonjs",
+
+//         "target":"es6",
+//         "jsx":"react"
+//                         }
+
+// }
+
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "es6",
+        "jsx": "react"
+    }
+}
