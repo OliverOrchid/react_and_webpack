@@ -263,7 +263,7 @@ Learn more about the [mode configuration here](https://webpack.js.org/configurat
 
 
 
-# (2) 为什么要使用 Webpack?
+## (2) 为什么要使用 Webpack?
 
 ```
 原文链接 https://webpack.js.org/concepts/why-webpack/
